@@ -1,0 +1,21 @@
+Why String is immutable in java?
+Answer -1==>String is a Object in java ,So when we create a string with
+the constructor it will  check if there is any other String present
+in memory with the same content(i.e String) if there is same String then 
+it will give  reference to that  that string from this variable also.
+So If the string is mutable then this cannot be done ,because if we change the 
+alter the String then it will also alter other variables also who are refer to 
+this location also; 
+2 ==>So this way it save memory also.  
+
+Difference between String and String Builder?
+Ans--String is immutable in Java ,where as String builder is mutable in Java.
+
+ 
+Write some of the methods of String class at least 5 with example.
+Ans- Example-String s1 ="Kapil";
+s1.toLowerCase();--Convert all character of string to lower case.
+s1.toUpperCase();--Convert all character of string to Upper case.
+s1.charAt(1); -->Will give you Charater at 1th index.
+s1.length(); -->Will return length of s1.
+s1.lastIndexOf("i"); -->Will retern last index of i.
